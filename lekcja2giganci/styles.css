@@ -1,0 +1,96 @@
+body{
+    color: rgb(0, 110, 255);
+}
+
+#naglowek{
+    background-color: lightskyblue;
+    color: #140082;
+    text-align: center;
+    padding: 30px;
+    font-family: "Arial", sans-serif;
+    letter-spacing: 2px;
+}
+
+#naglowek h1{
+    font-size: large;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#naglowek p{
+    font-size: medium;
+    font-style:normal;
+    color:#10006b;
+}
+
+#baner{
+    background-image: url(https://fastly.picsum.photos/id/24/1200/300.jpg?hmac=hESlOIRMG-fFUbZYtoz-AAtDArlGDI-509TaimEMfvw);
+    background-size: cover;
+    background-position: center;
+    color: #7af4ff;
+    text-align: center;
+    padding: 60px 20px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#baner p{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1,2;
+    letter-spacing: 3;
+    word-spacing: 8px;
+    text-transform: uppercase;
+}
+
+#baner p{
+    font-size: 24px;
+    font-style:italic;
+    white-space: nowrap;
+    direction: ltr;
+}
+
+#tresc {
+    width: 100%;
+    background-color: #3516a3;
+    padding: 20px 0px;
+    min-height: 300px;
+}
+
+.wpis {
+    width: 80%;
+    margin: 15px auto;
+    background-color: #3516a3;
+    border-radius: 10px;
+    padding: 15px 20px;
+    box-shadow: 0 2px 8px #000000;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.wpis .autor{
+    font-weight: bold;
+    font-size: 16px;
+    color: #13001e;
+    margin-bottom: 2px;
+}
+
+.wpis .data{
+    font-size: 12px;
+    color: #110345;
+    margin-bottom: 10px;
+}
+
+.wpis .tekst {
+    font-size: 14px;
+    color: #09031f;
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
+.wpis .reakcje {
+    border-top: 1px solid #212121;
+    padding-top: 10px;
+    color: #143af4;
+    font-size: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
